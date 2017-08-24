@@ -1,5 +1,6 @@
 { 
-  "journey_name" : "name",
-  "service_used" : "Compose for MySQL",
-  "runtime" : "Kubernetes Cluster"
+  "journey_name" : "Scalable-WordPress-deployment-on-Kubernetes",
+  "service_used" : ["Compose for MySQL"],
+  "runtime" : "Kubernetes Cluster",
+  "other_runtime": [ "OpenWhisk" ]
 }
