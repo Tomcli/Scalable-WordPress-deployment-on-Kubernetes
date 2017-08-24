@@ -1,0 +1,33 @@
+# The following metadata is used to generate the analytics and scorecards for the journeys
+# Fields that are not commented out are mandatory.
+# If you have any questions, please contact Bill Nagy (wnagy@us.ibm.com)
+
+# This is the short name for the journey (e.g. the "respond-messages-handle-streams" part of
+# https://developer.ibm.com/code/journey/respond-messages-handle-streams/)
+# shortName: respond-messages-handle-streams
+shortName: scalable-wordpress-on-kubernetes
+
+# The full title of the journey (e.g. "Respond to messages and handle streams")
+# title: Respond to messages and handle streams
+title: Scalable WordPress on Kubernetes
+
+# The category that identifies blog entries for this journey (e.g. the "respondtomessages" part of
+# https://developer.ibm.com/code/category/journeys/respondtomessages/)
+# blogCategory: respondtomessages
+blogCategory: wordpress
+
+# The public GitHub repository information
+#gitHubRepositoryID:
+#      repositoryOwner: IBM
+#      repositoryName: acme-freight
+gitHubRepositoryID:
+      repositoryOwner: IBM
+      repositoryName: Scalable-WordPress-deployment-on-Kubernetes
+
+# The list of ids of YouTube videos related to the journey.  These must 
+# youTubVideoIDs:
+#       - HY7CMxlLly4
+#       - upbv9wwR8wE
+#       - SsqBijizoKk
+#youTubeVideoIDs:
+#      - 
