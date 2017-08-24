@@ -31,3 +31,11 @@ gitHubRepositoryID:
 #       - SsqBijizoKk
 #youTubeVideoIDs:
 #      - 
+
+Metrics:
+    journey_name: Scalable-WordPress-deployment-on-Kubernetes
+    service_used: 
+                - Compose for MySQL
+    runtime : Kubernetes Cluster
+    other_runtime: 
+                - OpenWhisk
