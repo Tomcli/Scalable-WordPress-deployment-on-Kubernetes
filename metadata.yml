@@ -33,9 +33,9 @@ gitHubRepositoryID:
 #      - 
 
 Metrics:
-    journey_name: Scalable-WordPress-deployment-on-Kubernetes
-    service_used: 
-                - Compose for MySQL
-    runtime : Kubernetes Cluster
-    other_runtime: 
-                - OpenWhisk
+   journey_id: spring-boot-microservices-on-kubernetes 
+   services:
+            - Compose for MySQL
+   runtimes: 
+            - Kubernetes Cluster
+            - OpenWhisk
