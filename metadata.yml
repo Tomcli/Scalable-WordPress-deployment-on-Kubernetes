@@ -1,5 +1,6 @@
 Metrics:
     journey_id:  Scalable-WordPress-deployment-on-Kubernetes
-    services: Compose for MySQL
+    services: 
+          - Compose for MySQL
     runtimes: 
           - Kubernetes Cluster
