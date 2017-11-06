@@ -40,6 +40,10 @@
        "bluemix-cluster-name": {
             "description": "Your cluster name. Retrieve it with [bx cs clusters].",
             "type": "string"
+        },
+        "metrics-tracker": {
+            "description": "Your cluster name. Retrieve it with [bx cs clusters].",
+            "type": "string"
         }
     },
     "required": ["prod-region", "prod-organization", "prod-space", "bluemix-cluster-name"],
@@ -81,6 +85,11 @@
           "readonly": false,
           "title": "Bluemix Cluster Name",
           "key": "bluemix-cluster-name"
+        },{
+            "type": "select",
+            "readonly": false,
+            "title": "Disable Metrics Tracker",
+            "key": "metrics-tracker"
         },
         {
             "type": "table",
